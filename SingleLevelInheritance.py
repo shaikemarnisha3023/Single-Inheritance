@@ -1,9 +1,9 @@
-class alekhya(): // This Is A Parent Class
+class alekhya(): 
           def __init__(self,name,age,salary):
                     self.name=name
                     self.age=age
                     self.salary=salary
-class marnisha(alekhya): // This Is A Child Class
+class marnisha(alekhya): 
           def __init__(self,name,age,salary,id):
                     self.name=name
                     self.age=age
@@ -13,4 +13,5 @@ ale=alekhya("shaike Alekhya",35,500000)
 print(ale.age)
                     
                     
+
 
